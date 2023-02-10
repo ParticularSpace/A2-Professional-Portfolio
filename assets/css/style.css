@@ -1,7 +1,13 @@
+body {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.5;
+}
+
 header {
-    padding: 20px;
+    padding: 30px;
     font-family: monospace;
-    background-color: #85a9b6;
+    background-color: var(--lightblue);
     color: #ffffff;
 }
 
@@ -10,16 +16,17 @@ header h1 {
     font-size: 48px;
 }
 
-header h1 .seo {
-    color: #d9dcd6;
-}
-
 header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
-    font-family: sans-serif;
+    font-family: serif;
     font-size: 20px;
+    
+}
+
+nav a:hover{
+    color: black;
 }
 
 header nav ul a{
@@ -33,18 +40,56 @@ header nav ul li {
     margin-left: 25px;
 }
 
-body main div{
-    display: block;
-    font-size: 130%;
-    font-family: serif;
-    justify-content: center;
-    align-items: center;
-    padding: 10px  
+main div{
+    display: flex;
+    flex: 5 5 0;
+    max-width: 96%;
+    margin: 2% auto;    
+    font-family: serif; 
+    padding: 10px
+}
+
+main div div {
+    width: auto;
+    border: solid var(--lightblue) 2px;
+    margin: 5px;
+    padding: 2px;
+    display: inline;
+}
+
+#aboutme{
+    font-size: 150%;
+}
+
+main img{
+    border: 10px solid var(--lightblue);
+    padding: 5px;
+    margin: 5px;
 }
 
 .section {
-    width: 300px;
-    border: solid #85a9b6 5px;
+    width: auto;
+    border: solid var(--lightblue) 5px;
+    margin: 5px;
+    padding: 10px;
+  }
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+    background-color: var(--lightblue);
+    color: #fff;
+  }
+
+  @media screen and (max-width: 768px) {
+    header {
+      flex-direction: column;
+    }
+  
+    main {
+      max-width: 1200px;
+    }
   }
 
 
