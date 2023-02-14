@@ -51,10 +51,14 @@ main div{
 
 main div div {
     width: auto;
-    border: solid var(--lightblue) 2px;
     margin: 5px;
     padding: 2px;
     display: inline;
+}
+
+.portcards {
+    display: flex;
+    justify-content: space-around;
 }
 
 #aboutme{
@@ -63,17 +67,24 @@ main div div {
 }
 
 main img{
-    border: 10px solid var(--lightblue);
-    padding: 5px;
+    border: 8px solid var(--lightblue);
     margin: 5px;
 }
 
 .section {
-    width: auto;
-    border: solid var(--lightblue) 5px;
     margin: 5px;
     padding: 10px;
   }
+
+.contactme {
+ display: flex;
+ flex-direction: row;
+}
+
+.contactWrapper {
+display: flex;
+flex-direction: column;
+}
 
 footer {
     display: flex;
