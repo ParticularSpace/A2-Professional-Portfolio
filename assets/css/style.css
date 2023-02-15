@@ -40,9 +40,10 @@ header nav ul li {
     margin-left: 25px;
 }
 
-.background-image {
-    display: block;
+.background-image > img{
+    display: inline;
     height: 175px;
+    width: 100%;
   }
   
 
@@ -67,6 +68,7 @@ section {
     display: flex;
     justify-content:space-around;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .card_title {
@@ -85,6 +87,12 @@ section {
 #aboutme{
     font-size: 170%;
     font-family: monospace;
+}
+
+.aboutmetext{
+    font-size:110%;
+    font-family: monospace;
+    padding: 5px;
 }
 
 main img{
