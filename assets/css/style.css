@@ -118,12 +118,8 @@ footer {
     color: #fff;
   }
 
-  @media screen and (max-width: 768px) {
-    header {
+  @media screen and (max-width: 600px) {
+    .smallmedia {
       flex-direction: column;
     }
-  
-    main {
-      max-width: 1200px;
-    }
-  }
+}
