@@ -14,7 +14,7 @@ A personal portfolio for Sam Jones. Learn about Sam and where his love for PC's 
 This website tells you about Sam Jones and displays his work.   
 
 ## Screenshot
-![A picture of the webpage](./assets/images/particularspace.github.io_A2-Professional-Portfolio_(1).png "Sam Jones")
+![A picture of the webpage](assets/images/website_screenshot.png "Sam Jones")
 
 ## Credits
 UC Berkeley Coding Bootcamp Extension
