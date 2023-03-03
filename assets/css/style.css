@@ -4,49 +4,11 @@ body {
     line-height: 1.5;
 }
 
-header {
-    padding: 30px;
-    font-family: monospace;
-    background-color: var(--lightblue);
-    color: #ffffff;
+.header-name {
+    display: flex;
+    justify-content: flex-start;
+
 }
-
-header h1 {
-    display: inline-block;
-    font-size: 48px;
-}
-
-header nav {
-    padding-top: 15px;
-    margin-right: 20px;
-    float: right;
-    font-family: serif;
-    font-size: 20px;
-    
-}
-
-nav a:hover{
-    color: black;
-}
-
-header nav ul a{
-    list-style-type: none;
-    text-decoration: none;
-    color:#ffffff;
-}
-
-header nav ul li {
-    display: inline-block;
-    margin-left: 25px;
-}
-
-.background-image > img{
-    display: inline;
-    height: 175px;
-    width: 100%;
-  }
-  
-
 section {
     display: flex;
     max-width: 100%;
